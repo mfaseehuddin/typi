@@ -1,54 +1,20 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal TypeScript starter
-</h1>
+  <div style="display: flex; gap:10px; justify-content: center; align-items:start;">
+    <a href="https://pro-mirage.com">
+      <img alt="Gatsby" src="https://lums.pro-mirage.com/static/favicon-8e18c8491dd9f57aa69f56a234916d7a.ico" width="25" />
+    </a>
+    <p>Typi | A simple, fast and logical typing test</p>
+  </div>
 
-## 🚀 Quick start
+#### Introduction
+I have taken many online typing tests and I have always found them to be annoying because when you are typing in real life, you don't type random text.
 
-1.  **Create a Gatsby site.**
+It is my hypothesis that typing random non interconnected text is slower than something that is already in your brain or is a sentence that is gramatically correct.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+#### How it works
+Typi is a simple typing test that uses a database of sentences that are gramatically correct and are interconnected. This means that the sentences are not random and are not just a bunch of words thrown together.
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
+#### Development
+This project is built with Gatsby and ReactJS in Typescript. It uses a simple API to get the sentences from a database. The Front End is completely static and is hosted on Hostinger.
 
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.tsx` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+#### Contributing
+If you would like to contribute to this project, please feel free to do so. I am open to any suggestions and I am open to any pull requests.
