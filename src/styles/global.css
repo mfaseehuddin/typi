@@ -1,0 +1,30 @@
+/* import poppins */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* import roboto */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+:root{
+    --mirage-blue: #1B2A49;
+    --mirage-orange: #F2994A;
+    --mirage-white: #FFFFFF;
+    --mirage-black: #000000;
+
+    --font-type: roboto, sans-serif;
+    --typi-font-size: 30px;
+
+    --background-color: var(--mirage-blue);
+    --text-color: var(--mirage-white);
+    /* calculate a duller color */
+    --text-color-dull: #d0d0d054;
+    --text-highlight: var(--mirage-orange);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+    background-color: var(--background-color);
+}
+
+
+/* Path: src/styles/global.css */
