@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Context } from "../Context/Context";
+import Timer from "../Timer/Timer";
 
 type TypiTestType = {
     fontFamily: string;
@@ -21,14 +22,6 @@ export default function TypiTest({ TestStyle }: Props) {
         React.useContext(Context);
 
     const baseTextStyle: React.CSSProperties = {
-        // fontFamily: "var(--font-type)",
-        // fontSize: "var(--typi-font-size)",
-        // fontWeight: "bold",
-        // lineHeight: "1.5",
-        // letterSpacing: "0.05em",
-        // wordBreak: "break-word",
-        // wordWrap: "break-word",
-
         fontFamily: TestStyle.fontFamily,
         fontSize: TestStyle.fontSize,
         fontWeight: TestStyle.fontWeight,
@@ -51,6 +44,13 @@ export default function TypiTest({ TestStyle }: Props) {
                 position: "relative",
             }}
         >
+            <div
+                style={{
+                    zIndex: 10,
+                }}
+            >
+                <Timer />
+            </div>
             <textarea
                 style={{
                     width: "100%",
@@ -59,13 +59,8 @@ export default function TypiTest({ TestStyle }: Props) {
                     border: "none",
                     resize: "none",
                     outline: "none",
-                    //no overflow
                     overflow: "hidden",
                     zIndex: 1,
-                    //no text spell check
-                    // WebkitTextStroke: "0.1px transparent",
-                    // color: "var(--mirage-orange)",
-
                     color: TestStyle.activeColor,
                     ...baseTextStyle,
                 }}

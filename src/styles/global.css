@@ -26,5 +26,30 @@ body{
     background-color: var(--background-color);
 }
 
+.buttonSimple{
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-family: var(--font-type);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.buttonSimple:hover{
+    background-color: var(--text-color-dull);
+}
+.buttonSimple:active{
+    background-color: var(--text-color);
+}
+.buttonSimple:focus{
+    outline: none;
+}
+.buttonSimple:disabled{
+    background-color: var(--text-color-dull);
+    cursor: not-allowed;
+}
+
 
 /* Path: src/styles/global.css */
