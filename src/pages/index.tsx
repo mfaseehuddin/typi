@@ -49,4 +49,54 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Home Page</title>;
+export const Head: HeadFC = () => {
+    return (
+        <>
+            <title>Typi | The Simple Typing Test</title>
+            <meta
+                name="description"
+                content="Typi is a simple typing test that helps you improve your typing speed and accuracy."
+            />
+            {/* 
+                add these keywords
+                "gatsby",
+                "gatsbyjs",
+                "gatsby-plugin-typescript",
+                "mfaseehuddin",
+                "typi",
+                "typing",
+                "typing test",
+                "typing speed",
+                "typing speed test",
+                "typing speed test online",
+                "typing speed test free",
+                "typing speed test 10fastfingers",
+                "typing speed test 10fastfingers.com",
+                "typing speed test 10fastfingers.com free",
+                "typing speed test 10fastfingers.com free online",
+                "typing speed test 10fastfingers.com free online typing test",
+                "typing speed test 10fastfingers.com free online typing test 1 minute",
+
+                "lums",
+                "lums typing test",
+                "lums typing test 10fastfingers",
+                "project mirage",
+                "project mirage typing test",
+                "project mirage typing test 10fastfingers",
+                "miraj",
+                "miraj typing test",
+                "promirage.com",
+                "promirage.com typing test",
+                "promirage.com typing test 10fastfingers",
+                "typi.promirage.com",
+                "typi.promirage.com typing test",
+                "typi.promirage.com typing test 10fastfingers"
+            */}
+
+            <meta
+                name="keywords"
+                content="gatsby, gatsbyjs, gatsby-plugin-typescript, mfaseehuddin, typi, typing, typing test, typing speed, typing speed test, typing speed test online, typing speed test free, typing speed test 10fastfingers, typing speed test 10fastfingers.com, typing speed test 10fastfingers.com free, typing speed test 10fastfingers.com free online, typing speed test 10fastfingers.com free online typing test, typing speed test 10fastfingers.com free online typing test 1 minute, lums, lums typing test, lums typing test 10fastfingers, project mirage, project mirage typing test, project mirage typing test 10fastfingers, miraj, miraj typing test, promirage.com, promirage.com typing test, promirage.com typing test 10fastfingers, typi.promirage.com, typi.promirage.com typing test, typi.promirage.com typing test 10fastfingers"
+            />
+        </>
+    );
+};
