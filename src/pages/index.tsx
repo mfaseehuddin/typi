@@ -73,7 +73,7 @@ export const Head: HeadFC = () => {
                 "typing speed test 10fastfingers",
                 "typing speed test 10fastfingers.com",
                 "typing speed test 10fastfingers.com free",
-                "typing speed test 10fastfingers.com free online",
+                "typing  speed test 10fastfingers.com free online",
                 "typing speed test 10fastfingers.com free online typing test",
                 "typing speed test 10fastfingers.com free online typing test 1 minute",
 
@@ -97,6 +97,9 @@ export const Head: HeadFC = () => {
                 name="keywords"
                 content="gatsby, gatsbyjs, gatsby-plugin-typescript, mfaseehuddin, typi, typing, typing test, typing speed, typing speed test, typing speed test online, typing speed test free, typing speed test 10fastfingers, typing speed test 10fastfingers.com, typing speed test 10fastfingers.com free, typing speed test 10fastfingers.com free online, typing speed test 10fastfingers.com free online typing test, typing speed test 10fastfingers.com free online typing test 1 minute, lums, lums typing test, lums typing test 10fastfingers, project mirage, project mirage typing test, project mirage typing test 10fastfingers, miraj, miraj typing test, promirage.com, promirage.com typing test, promirage.com typing test 10fastfingers, typi.promirage.com, typi.promirage.com typing test, typi.promirage.com typing test 10fastfingers"
             />
+            <meta name="author" content="Muhammad Faseeh Uddin" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta name="theme-color" content="var(--mirage-blue)" />
         </>
     );
 };
