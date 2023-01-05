@@ -1,0 +1,25 @@
+[debug] [2023-01-05T18:30:14.477Z] ----------------------------------------------------------------------
+[debug] [2023-01-05T18:30:14.478Z] Command:       /Users/faseeh/.nvm/versions/node/v18.12.1/bin/node /Users/faseeh/.nvm/versions/node/v18.12.1/bin/firebase deploy
+[debug] [2023-01-05T18:30:14.478Z] CLI Version:   11.19.0
+[debug] [2023-01-05T18:30:14.478Z] Platform:      darwin
+[debug] [2023-01-05T18:30:14.479Z] Node Version:  v18.12.1
+[debug] [2023-01-05T18:30:14.483Z] Time:          Thu Jan 05 2023 23:30:14 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-01-05T18:30:14.483Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-05T18:30:14.514Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-05T18:30:14.514Z] > authorizing via signed-in user (mfaseehuddin2001@gmail.com)
+[debug] [2023-01-05T18:30:14.514Z] [iam] checking project typi-mirage for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-01-05T18:30:14.515Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/typi-mirage:testIamPermissions [none]
+[debug] [2023-01-05T18:30:14.515Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/typi-mirage:testIamPermissions x-goog-quota-user=projects/typi-mirage
+[debug] [2023-01-05T18:30:14.515Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/typi-mirage:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-05T18:30:16.755Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/typi-mirage:testIamPermissions 200
+[debug] [2023-01-05T18:30:16.756Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/typi-mirage:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-05T18:30:16.758Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/typi-mirage [none]
+[debug] [2023-01-05T18:30:17.878Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/typi-mirage 200
+[debug] [2023-01-05T18:30:17.879Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/typi-mirage {"projectId":"typi-mirage","projectNumber":"477458848273","displayName":"typi-mirage","name":"projects/typi-mirage","resources":{"hostingSite":"typi-mirage"},"state":"ACTIVE","etag":"1_e3a8a9f2-2118-4f11-858c-cd17c066ea35"}
+[info] 
+[info] === Deploying to 'typi-mirage'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-01-05T18:30:17.887Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/typi-mirage/versions [none]
+[debug] [2023-01-05T18:30:17.887Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/typi-mirage/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
